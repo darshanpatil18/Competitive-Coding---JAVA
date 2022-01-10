@@ -1,37 +1,17 @@
-import java.io.*;
-class Power{
-	public void calS(){	
-	try{
-		InputStreamReader ir=new InputStreamReader(System.in);
-		BufferedReader br=new BufferedReader(ir);
-		System.out.println("Enter Number");
-		String s=br.readLine();
-		int sum=Integer.parseInt(s);
-		
-		if(sum%2==0){
-			Double Sum=Math.pow(sum,2);
-			System.out.println("Power of Even Number "+Sum);
-		}
-		
-		else{
-			System.out.println("ENTERED VALUE IS NOT EVEN");
-		}
-
-
-
-
+import java.util.*;
+class Power
+{
+	public static void main(String args[])
+	{
+		Scanner in=new Scanner(System.in);
+		int n,p;
+		System.out.println("Enter the Number:");
+		n=in.nextInt();
+		System.out.println("Enter the Power:");
+		p=in.nextInt();
+		double res=Math.pow(n,p);
+		System.out.println("Value of "+n+"^"+p+" = "+String.format("%.0f",res));
 	}
-	catch(IOException io){}	
-
-
-	}
-	public static void main(String args[]){
-		Power ob=new Power();
-		ob.calS();
-
-
-	}
-
-
-
 }
+
+		
