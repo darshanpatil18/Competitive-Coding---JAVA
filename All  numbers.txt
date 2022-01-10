@@ -1,0 +1,11 @@
+
+armstrong numbers::153=1*1*1+5*5*5+3*3*3
+perfect numbers::sum of factors is number itself.
+specialtwo digit no.::sum of digit + product of digits is number itself::
+special number:::sum of factorial of digits is number itself...
+buzz number::Number which is divisible by 7 or which ends with seven..
+automorphic number::square of number contains the number itself in last..
+palindrome number::141=141..
+
+
+ 
